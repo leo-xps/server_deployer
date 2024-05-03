@@ -44,6 +44,6 @@ RUN ["chmod", "+x", "/ROOT/BUILD/Server.x86_64"]
 COPY pm2.json /ROOT/pm2.json
 COPY index.js /ROOT/index.js
 COPY BOOT.SH /ROOT/BOOT.SH
-COPY preprocess.sh ./preprocess
+COPY preprocess.sh ./preprocess.sh
 
-ENTRYPOINT ["./preprocess"]
+CMD ["./preprocess.sh"]
