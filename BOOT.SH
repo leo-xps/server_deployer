@@ -1,0 +1,1 @@
+xvfb-run --auto-servernum --server-args='-screen 0 640X480X24:32' /ROOT/BUILD/Server.x86_64 -batchmode -nographics

@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "ping",
+      "script": "index.js",
+      "exec_mode": "fork",
+      "instances": 1
+    },
+    {
+      "name": "unity",
+      "interpreter": "bash",
+      "script": "./BOOT.SH",
+      "exec_mode": "fork",
+      "instances": 1
+    }
+  ]
+}
