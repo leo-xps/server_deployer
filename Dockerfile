@@ -46,4 +46,4 @@ COPY index.js /ROOT/index.js
 COPY BOOT.SH /ROOT/BOOT.SH
 COPY preprocess.sh ./preprocess.sh
 
-CMD ["./preprocess.sh"]
+CMD ["pm2-runtime", "start", "pm2.json"]
